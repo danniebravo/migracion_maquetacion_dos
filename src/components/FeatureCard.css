@@ -1,0 +1,33 @@
+.feature-card {
+  text-align: center;
+}
+
+.feature-card__icon {
+  width: 4rem;
+  height: 4rem;
+  background: #111827;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.feature-card__icon svg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.feature-card__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #111827;
+  letter-spacing: 0.025em;
+}
+
+.feature-card__desc {
+  color: #4b5563;
+  line-height: 1.6;
+  font-size: 0.9375rem;
+}

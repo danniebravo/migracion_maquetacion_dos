@@ -1,0 +1,73 @@
+/* ── Features section ── */
+.features {
+  background: white;
+  padding: 5rem 1.5rem;
+}
+
+.features__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .features__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+}
+
+/* ── Featured products section ── */
+.featured-products {
+  background: #f3f4f6;
+  padding: 4rem 1.5rem;
+}
+
+.featured-products__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.featured-products__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.featured-products__header h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.featured-products__header p {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
+
+/* ── Products grid (compartido) ── */
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 640px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
