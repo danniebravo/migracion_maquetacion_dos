@@ -1,0 +1,109 @@
+.contact-form {
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Demo alert ── */
+.contact-form__demo-alert {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 0.75rem 1rem;
+  color: #92400e;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Success message ── */
+.contact-form__success {
+  background: #d1fae5;
+  border-left: 4px solid #059669;
+  padding: 0.75rem 1rem;
+  color: #065f46;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Row (nombre + apellidos) ── */
+.contact-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .contact-form__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Field ── */
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-bottom: 1.25rem;
+}
+
+.contact-form__field label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.contact-form__field input,
+.contact-form__field select,
+.contact-form__field textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: #111827;
+  background: white;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.contact-form__field input:focus,
+.contact-form__field select:focus,
+.contact-form__field textarea:focus {
+  border-color: #111827;
+  box-shadow: 0 0 0 2px rgba(17, 24, 39, 0.15);
+}
+
+.contact-form__field textarea {
+  resize: vertical;
+  min-height: 8rem;
+}
+
+.input--error {
+  border-color: #dc2626 !important;
+}
+
+.contact-form__error {
+  font-size: 0.8125rem;
+  color: #dc2626;
+}
+
+/* ── Submit button ── */
+.contact-form__submit {
+  width: 100%;
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.contact-form__submit:hover {
+  background: #1f2937;
+}

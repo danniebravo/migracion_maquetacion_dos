@@ -18,6 +18,14 @@ function Navbar() {
           </li>
           <li>
             <NavLink
+              to="/nosotros"
+              className={({ isActive }) => isActive ? 'nav-link nav-link--active' : 'nav-link'}
+            >
+              Nosotros
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/productos"
               className={({ isActive }) => isActive ? 'nav-link nav-link--active' : 'nav-link'}
             >

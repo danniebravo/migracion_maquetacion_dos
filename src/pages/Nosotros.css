@@ -1,0 +1,170 @@
+/* ── Banner interno ── */
+.nosotros-banner {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 4rem 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.nosotros-banner__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nosotros-banner__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .nosotros-banner__title {
+    font-size: 3.5rem;
+  }
+}
+
+.nosotros-banner__accent {
+  color: #fbbf24;
+}
+
+.nosotros-banner__subtitle {
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ── Historia ── */
+.nosotros-historia {
+  background: white;
+  padding: 5rem 1.5rem;
+}
+
+.nosotros-historia__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nosotros-historia__title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.nosotros-historia__text {
+  color: #4b5563;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.nosotros-historia__text:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Stats ── */
+.nosotros-stats {
+  background: #111827;
+  padding: 4rem 1.5rem;
+}
+
+.nosotros-stats__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .nosotros-stats__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-card__valor {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fbbf24;
+  line-height: 1;
+}
+
+.stat-card__etiqueta {
+  font-size: 0.875rem;
+  color: #d1d5db;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Valores ── */
+.nosotros-valores {
+  background: #f3f4f6;
+  padding: 5rem 1.5rem;
+}
+
+.nosotros-valores__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.nosotros-valores__title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .valores-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .valores-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.valor-card {
+  background: white;
+  padding: 2rem;
+  border-left: 4px solid #f59e0b;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.valor-card:hover {
+  transform: translateY(-3px);
+}
+
+.valor-card__title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.valor-card__desc {
+  font-size: 0.9375rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
