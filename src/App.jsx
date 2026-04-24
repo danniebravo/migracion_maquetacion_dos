@@ -1,5 +1,7 @@
+import AppRouter from './routes/AppRouter'
+
 function App() {
-  return <div>Urban Threads</div>
+  return <AppRouter />
 }
 
 export default App
