@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Home from '../pages/Home'
 import Nosotros from '../pages/Nosotros'
 import Productos from '../pages/Productos'
@@ -17,6 +18,7 @@ function AppRouter() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
