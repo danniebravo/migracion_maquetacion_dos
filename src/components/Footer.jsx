@@ -15,7 +15,7 @@ function Footer() {
           </div>
 
           <div className="footer__section">
-            <h4 className="footer__section-title">Navegación</h4>
+            <h4 className="footer__section-title">Enlaces</h4>
             <ul>
               <li><Link to="/">Inicio</Link></li>
               <li><Link to="/nosotros">Nosotros</Link></li>
