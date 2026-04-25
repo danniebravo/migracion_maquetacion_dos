@@ -67,7 +67,7 @@ function ContactForm() {
   return (
     <div className="contact-form">
       <div className="contact-form__demo-alert">
-        Formulario de demostración — los datos se guardan en localStorage.
+        Demo: Este es un formulario de demostración. Los mensajes no se enviarán realmente.
       </div>
 
       {enviado && (

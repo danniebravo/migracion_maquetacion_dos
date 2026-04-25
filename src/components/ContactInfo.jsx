@@ -3,7 +3,7 @@ import './ContactInfo.css'
 const INFO_ITEMS = [
   {
     titulo: 'Dirección',
-    texto: 'Calle Urban Style 123, 28001 Madrid',
+    texto: <>Calle Urban Style 123<br />28001 Madrid, España</>,
     icono: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
@@ -32,7 +32,7 @@ const INFO_ITEMS = [
   },
   {
     titulo: 'Horario',
-    texto: 'Lun–Vie 9h–18h · Sáb 10h–14h',
+    texto: <>Lun - Vie: 9:00 - 18:00<br />Sáb: 10:00 - 14:00</>,
     icono: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />

@@ -26,6 +26,14 @@
   color: #4b5563;
 }
 
+.contacto-page__section-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
 .contacto-page__grid {
   display: grid;
   grid-template-columns: 1fr;

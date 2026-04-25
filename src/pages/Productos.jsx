@@ -7,8 +7,8 @@ function Productos() {
     <main className="productos-page">
       <div className="productos-page__container">
         <div className="productos-page__header">
-          <h2>Nuestros Productos</h2>
-          <p>Descubre nuestra colección completa de ropa urbana</p>
+          <h2>NUESTRA COLECCIÓN</h2>
+          <p>Estilo urbano para cada ocasión</p>
         </div>
 
         <div className="products-grid">

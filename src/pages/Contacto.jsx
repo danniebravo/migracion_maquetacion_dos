@@ -7,12 +7,18 @@ function Contacto() {
     <main className="contacto-page">
       <div className="contacto-page__container">
         <div className="contacto-page__header">
-          <h2>Contacto</h2>
-          <p>¿Tienes alguna pregunta? Estamos aquí para ayudarte</p>
+          <h2>CONTACTO</h2>
+          <p>¿Tienes alguna pregunta? Nos encantaría escucharte</p>
         </div>
         <div className="contacto-page__grid">
-          <ContactInfo />
-          <ContactForm />
+          <div>
+            <h3 className="contacto-page__section-title">INFORMACIÓN DE CONTACTO</h3>
+            <ContactInfo />
+          </div>
+          <div>
+            <h3 className="contacto-page__section-title">ENVÍANOS UN MENSAJE</h3>
+            <ContactForm />
+          </div>
         </div>
       </div>
     </main>
