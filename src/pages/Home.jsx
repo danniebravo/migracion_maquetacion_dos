@@ -1,7 +1,5 @@
 import Hero from '../components/Hero'
 import FeatureCard from '../components/FeatureCard'
-import ProductCard from '../components/ProductCard'
-import { products } from '../data/products'
 import './Home.css'
 
 const FEATURES = [
@@ -49,20 +47,6 @@ function Home() {
           {FEATURES.map((feature) => (
             <FeatureCard key={feature.titulo} {...feature} />
           ))}
-        </div>
-      </section>
-
-      <section className="featured-products">
-        <div className="featured-products__container">
-          <div className="featured-products__header">
-            <h2>Productos Destacados</h2>
-            <p>Lo mejor de nuestra colección urbana</p>
-          </div>
-          <div className="products-grid">
-            {products.map((producto) => (
-              <ProductCard key={producto.id} {...producto} />
-            ))}
-          </div>
         </div>
       </section>
     </main>
