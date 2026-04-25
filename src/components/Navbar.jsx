@@ -4,7 +4,6 @@ import './Navbar.css'
 
 const NAV_LINKS = [
   { to: '/', label: 'Inicio', end: true },
-  { to: '/nosotros', label: 'Nosotros' },
   { to: '/productos', label: 'Productos' },
   { to: '/contacto', label: 'Contacto' },
 ]
