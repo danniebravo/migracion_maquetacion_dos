@@ -9,8 +9,7 @@ function Footer() {
           <div className="footer__brand">
             <h3 className="footer__brand-name">URBAN THREADS</h3>
             <p className="footer__brand-desc">
-              Ropa urbana minimalista para el urbanita moderno. Calidad,
-              estilo y actitud en cada pieza.
+              Redefiniendo el estilo urbano con diseños minimalistas y calidad premium.
             </p>
           </div>
 
@@ -58,7 +57,7 @@ function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>© {new Date().getFullYear()} Urban Threads. Todos los derechos reservados.</p>
+          <p>© 2024 Urban Threads. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

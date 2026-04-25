@@ -5,7 +5,7 @@ import './Home.css'
 const FEATURES = [
   {
     titulo: 'DISEÑO ÚNICO',
-    descripcion: 'Piezas exclusivas con estética minimalista para el urbanita moderno.',
+    descripcion: 'Piezas exclusivas con estética urbana y minimalista',
     icono: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <line x1="18" y1="2" x2="22" y2="6" />
@@ -15,7 +15,7 @@ const FEATURES = [
   },
   {
     titulo: 'CALIDAD PREMIUM',
-    descripcion: 'Materiales duraderos y sostenibles seleccionados con criterio.',
+    descripcion: 'Materiales de alta calidad para máxima durabilidad',
     icono: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -25,7 +25,7 @@ const FEATURES = [
   },
   {
     titulo: 'ENVÍO RÁPIDO',
-    descripcion: 'Entrega garantizada en 24-48 horas a toda España.',
+    descripcion: 'Entrega express en 24-48 horas',
     icono: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="1" y="3" width="15" height="13" />
