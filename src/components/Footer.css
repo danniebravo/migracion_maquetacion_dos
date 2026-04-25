@@ -89,7 +89,8 @@
   text-decoration: none;
 }
 
-.footer__social-link svg {
+.footer__social-link svg,
+.footer__social-link img {
   width: 1.5rem;
   height: 1.5rem;
 }
