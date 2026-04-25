@@ -69,7 +69,8 @@
   cursor: pointer;
 }
 
-.footer__section ul a:hover {
+.footer__section ul a:hover,
+.footer__section ul span:hover {
   color: #fbbf24;
 }
 
@@ -97,7 +98,6 @@
 }
 
 .footer__social-link:hover {
-  background: rgba(245, 158, 11, 0.2);
   color: #fbbf24;
 }
 
