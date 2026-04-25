@@ -7,9 +7,12 @@ const FEATURES = [
     titulo: 'DISEÑO ÚNICO',
     descripcion: 'Piezas exclusivas con estética urbana y minimalista',
     icono: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 20h9" />
-        <path d="M16.5 3.5a2.121 2.121 0 113 3L7 19l-4 1 1-4 12.5-12.5z" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+        <line x1="4" y1="5" x2="8" y2="5" />
+        <line x1="6" y1="3" x2="6" y2="7" />
+        <path d="M14 6c3 0 5 2 5 5s-2 6-6 8c-2 1-4 1-5 0" />
+        <path d="M14 6c-1 0-2 .5-2 1.5S13 9 14 9" />
+        <circle cx="8" cy="17" r="1.2" />
       </svg>
     ),
   },
@@ -17,9 +20,9 @@ const FEATURES = [
     titulo: 'CALIDAD PREMIUM',
     descripcion: 'Materiales de alta calidad para máxima durabilidad',
     icono: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-        <polyline points="9 12 11 14 15 10" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="8 12 11 15 16 10" />
       </svg>
     ),
   },
@@ -27,11 +30,8 @@ const FEATURES = [
     titulo: 'ENVÍO RÁPIDO',
     descripcion: 'Entrega express en 24-48 horas',
     icono: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="1" y="3" width="15" height="13" />
-        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
-        <circle cx="5.5" cy="18.5" r="2.5" />
-        <circle cx="18.5" cy="18.5" r="2.5" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2" />
       </svg>
     ),
   },
